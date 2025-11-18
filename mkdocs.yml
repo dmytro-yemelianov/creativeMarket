@@ -14,8 +14,8 @@ nav:
       - Data Standard Variables: reference/data-standard-variables.md
       - PowerShell Pantry: reference/powershell-pantry.md
   - Templates:
-      - Single-hook recipe: authoring/short-recipe.md
-      - Workflow recipe: authoring/workflow-recipe.md
+      - Single-hook recipe: templates/short-recipe.md
+      - Workflow recipe: templates/workflow-recipe.md
   - Troubleshooting:
       - Debugging Playbook: troubleshooting/debugging-playbook.md
   - Operations & Compliance:
