@@ -20,6 +20,6 @@ Use the left-hand navigation or the quick links below:
 - [Four-Eyes Precheck](operations/four-eyes-precheck.md)
 - [Support Questionnaire Checklists](operations/support-checklists.md)
 - [VGet Automation Playbook](operations/vget-automation.md)
-- [Recipe templates](authoring/short-recipe.md)
+- [Recipe templates](templates/short-recipe.md)
 
 For the authoritative Autodesk source material, consult the bundled `COMPLETE_DOCUMENTATION.md` file in the repository root.

@@ -6,8 +6,8 @@ Thanks for helping expand the Autodesk Vault Programmer's Cookbook. Use this gui
 
 | Scenario | Template |
 | --- | --- |
-| Single hook, short PowerShell snippet | [Single-hook recipe template](authoring/short-recipe.md) |
-| Multi-phase workflow or compliance guide | [Workflow recipe template](authoring/workflow-recipe.md) |
+| Single hook, short PowerShell snippet | [Single-hook recipe template](templates/short-recipe.md) |
+| Multi-phase workflow or compliance guide | [Workflow recipe template](templates/workflow-recipe.md) |
 
 Each template includes the required front matter, section headings, and validation checklist. Copy the template into a new Markdown file under `docs/` and replace the placeholder text.
 
