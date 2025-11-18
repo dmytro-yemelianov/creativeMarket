@@ -13,9 +13,9 @@
 
 | Object | Availability | Typical use |
 | --- | --- | --- |
-| [`$vaultContext`](../../../COMPLETE_DOCUMENTATION.md#data-standard-powershell-variables) | Vault tabs & menus | Determine which entity type (file, item, change order) triggered the hook and find the active XAML file. |
-| [`$vault`](../../../COMPLETE_DOCUMENTATION.md#data-standard-powershell-variables) | Vault tabs | Call into the Vault API (DocumentService, ItemService, etc.) to pull related data. |
-| [`$dsWindow`](../../../COMPLETE_DOCUMENTATION.md#data-standard-powershell-variables) | Vault tabs | Update controls (grids, list views, text blocks) that are defined in the tab’s XAML. |
+| [`$vaultContext`](../../reference/data-standard-variables.md#data-standard-powershell-variables) | Vault tabs & menus | Determine which entity type (file, item, change order) triggered the hook and find the active XAML file. |
+| [`$vault`](../../reference/data-standard-variables.md#data-standard-powershell-variables) | Vault tabs | Call into the Vault API (DocumentService, ItemService, etc.) to pull related data. |
+| [`$dsWindow`](../../reference/data-standard-variables.md#data-standard-powershell-variables) | Vault tabs | Update controls (grids, list views, text blocks) that are defined in the tab’s XAML. |
 
 ## Step-by-step example – dual-mode BOM/Associations tab
 
