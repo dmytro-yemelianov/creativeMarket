@@ -13,9 +13,9 @@ Use `OnPostCloseDialog` to run validation or property-update logic after an Inve
 
 | Object | Availability | Typical use |
 | --- | --- | --- |
-| [`$dsWindow`](../../../COMPLETE_DOCUMENTATION.md#data-standard-powershell-variables) | Always | Query or update dialog controls before the window is destroyed. |
-| [`$dsParam`](../../../COMPLETE_DOCUMENTATION.md#data-standard-powershell-variables) | Inventor/AutoCAD dialogs | Read context such as the dialog name, CAD document type, or numbering scheme choice. |
-| [`$Prop[]`](../../../COMPLETE_DOCUMENTATION.md#data-standard-powershell-variables) | Always | Overwrite iProperties before Vault applies them. |
+| [`$dsWindow`](../../reference/data-standard-variables.md#data-standard-powershell-variables) | Always | Query or update dialog controls before the window is destroyed. |
+| [`$dsParam`](../../reference/data-standard-variables.md#data-standard-powershell-variables) | Inventor/AutoCAD dialogs | Read context such as the dialog name, CAD document type, or numbering scheme choice. |
+| [`$Prop[]`](../../reference/data-standard-variables.md#data-standard-powershell-variables) | Always | Overwrite iProperties before Vault applies them. |
 
 > **Tip:** `$dsWindow.Name` resolves to either `InventorWindow` or `AutoCADWindow`, making it easy to branch logic per host.
 >
@@ -62,4 +62,4 @@ Because the hook runs before the file name and properties are committed, the use
 
 - **Hook never fires:** Verify that the `OnPostCloseDialog` function exists in `Default.ps1`. Removing it or renaming it prevents Data Standard from calling the hook.
 - **Variables are `$null`:** Ensure you are editing the CAD Default script, not a Vault tab script. `$dsParam` is only populated in the dialog implementation.
-- **Edits do not persist:** Confirm that the property you modify is writable. You can inspect availability in the [Data Standard PowerShell variables reference](../../../COMPLETE_DOCUMENTATION.md#data-standard-powershell-variables) and by checking Vault property definitions.
+- **Edits do not persist:** Confirm that the property you modify is writable. You can inspect availability in the [Data Standard PowerShell variables reference](../../reference/data-standard-variables.md#data-standard-powershell-variables) and by checking Vault property definitions.
