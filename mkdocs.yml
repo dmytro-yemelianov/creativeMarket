@@ -1,6 +1,6 @@
 site_name: Vault Data Standard Cookbook
-site_url: https://example.com
-repo_url: https://github.com/example/creativeMarket
+site_url: https://<github-username>.github.io/creativeMarket/
+repo_url: https://github.com/<github-username>/creativeMarket
 nav:
   - Home: index.md
   - Events:
