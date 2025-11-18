@@ -6,8 +6,24 @@ nav:
   - Events:
       - OnPostCloseDialog: events/onpostclosedialog.md
       - OnTabContextChanged: events/ontabcontextchanged.md
+  - Automation:
+      - Dialogs & Tabs Overview: automation/dialogs-tabs/README.md
+      - OnPostCloseDialog Recipe: automation/dialogs-tabs/onpostclosedialog.md
+      - OnTabContextChanged Recipe: automation/dialogs-tabs/ontabcontextchanged.md
   - Reference:
       - Data Standard Variables: reference/data-standard-variables.md
+      - PowerShell Pantry: reference/powershell-pantry.md
+  - Templates:
+      - Single-hook recipe: templates/short-recipe.md
+      - Workflow recipe: templates/workflow-recipe.md
+  - Troubleshooting:
+      - Debugging Playbook: troubleshooting/debugging-playbook.md
+  - Operations & Compliance:
+      - Four-Eyes Precheck: operations/four-eyes-precheck.md
+      - Four-Eyes User Check: operations/four-eyes-user-check.md
+      - Support Questionnaire Checklists: operations/support-checklists.md
+      - VGet Automation Playbook: operations/vget-automation.md
+  - Contributing: contributing.md
 theme:
   name: material
   features:
